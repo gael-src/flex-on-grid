@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .parent {
@@ -165,7 +166,7 @@ ul {
 }
 
 .button1:hover {
-    background-color: rgba(243, 167, 81, 0.8);
+    background-color: rgba(243, 167, 81, 0.7);
 }
 
 .button2 {
@@ -173,7 +174,7 @@ ul {
 }
 
 .button2:hover {
-    background-color: rgba(159, 94, 245, 0.8);
+    background-color: rgba(159, 94, 245, 0.7);
 }
 
 .button3 {
@@ -181,7 +182,7 @@ ul {
 }
 
 .button3:hover {
-    background-color: rgba(113, 248, 120, 0.75);
+    background-color: rgba(113, 248, 120, 0.7);
 }
 
 .button4 {
@@ -189,7 +190,7 @@ ul {
 }
 
 .button4:hover {
-    background-color: rgba(248, 116, 208, 0.8);
+    background-color: rgba(248, 116, 208, 0.7);
 }
 
 
