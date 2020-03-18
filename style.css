@@ -96,6 +96,15 @@ a:hover {
     width: 100%;
 }
 
+.joke-answer {
+    display: none;
+}
+
+.joke-link:hover+.joke-answer {
+    display: block;
+    text-align: center;
+}
+
 
 /* BUTTONS  */
 
