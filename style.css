@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+.div2 {
+    grid-area: 3 / 1 / 4 / 13;
+}
+
+nav {
+    background-color: lightgrey;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.div3 {
+    grid-area: 4 / 1 / 10 / 4;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.div4 {
+    grid-area: 4 / 4 / 10 / 7;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.div5 {
+    grid-area: 4 / 7 / 10 / 13;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.hero-pics {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.div6 {
+    grid-area: 10 / 1 / 11 / 4;
+    padding: 10px;
+}
+
+.div7 {
+    grid-area: 10 / 4 / 11 / 7;
+    padding: 10px;
+}
+
+.div8 {
+    grid-area: 10 / 7 / 11 / 10;
+    padding: 10px;
+}
+
+.div9 {
+    grid-area: 10 / 10 / 11 / 13;
+    padding: 10px;
+}
+
+.div10 {
+    grid-area: 11 / 1 / 13 / 13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: rgb(255, 136, 0);
+}
+
+.button1:hover {
+    background-color: rgba(255, 136, 0, 0.8);
+}
+
+.button2 {
+    background-color: rgb(130, 42, 245);
+}
+
+.button2:hover {
+    background-color: rgba(130, 42, 245, 0.8);
+}
+
+.button3 {
+    background-color: rgb(49, 248, 59);
+}
+
+.button3:hover {
+    background-color: rgba(49, 248, 59, 0.75);
+}
+
+.button4 {
+    background-color: rgb(255, 0, 179);
+}
+
+.button4:hover {
+    background-color: rgba(255, 0, 179, 0.8);
+}
+
+@media only screen and (max-width: 600px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, auto);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .div1 {
+        grid-area: 1 / 1 / 3 / 13;
+        height: 150px;
+        margin: 0;
+    }
+    .div2 {
+        grid-area: 3 / 1 / 4 / 13;
+        height: 150px;
+        margin: 0;
+    }
+    .div3 {
+        grid-area: 4 / 1 / 5 / 13;
+    }
+    .div4 {
+        grid-area: 5 / 1 / 6 / 13;
+    }
+    .div5 {
+        grid-area: 6 / 1 / 7 / 13;
+    }
+    .div6 {
+        grid-area: 7 / 1 / 8 / 13;
+        height: 50px;
+    }
+    .div7 {
+        grid-area: 8 / 1 / 9 / 13;
+        height: 50px;
+    }
+    .div8 {
+        grid-area: 9 / 1 / 10 / 13;
+        height: 50px;
+    }
+    .div9 {
+        grid-area: 10 / 1 / 11 / 13;
+        height: 50px;
+    }
+    .div10 {
+        grid-area: 11 / 1 / 13 / 13;
+        height: 50px;
+    }
+}
