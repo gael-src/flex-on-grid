@@ -1,5 +1,6 @@
-# flex-on-grid
-Simple html css website layout made with flexbox and grid
+# Flex on Grid
+
+Simple HTML CSS Website layout made with Flexbox and Grid
 
 https://gael-src.github.io/flex-on-grid/
 
